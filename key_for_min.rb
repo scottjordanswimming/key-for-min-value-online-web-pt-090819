@@ -12,12 +12,5 @@ def key_for_min_value(name_hash)
       min_val = value
     end
   end
-
-  name_hash.collect do |key,value|
-  
-      
-      if name_hash[key] == min_val
-  return key
-end
 end
 end
